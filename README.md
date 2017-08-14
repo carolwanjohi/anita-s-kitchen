@@ -1,5 +1,5 @@
 # independent-project-2
-This is the second independent project don while in Moringa School to create a landing page for Anita's Kitchen.
+This is the second independent project don while in Moringa School to create a landing page for [Anita's Kitchen](https://carolwanjohi.github.io/independent-project-2/).
 # Anita's Kitchen
 
 ## This is the second independent project for creating a landing page for Anita's Kitchen. 14/08/2017
