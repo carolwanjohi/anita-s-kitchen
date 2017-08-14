@@ -8,7 +8,7 @@ This is the second independent project don while in Moringa School to create a l
 
 ## Description
 
-This displays the work done at [Moringa School](http://moringaschool.com/) by [Carol Wanjohi](https://github.com/carolwanjohi).[Anita's Kitchen]() is a webpage 
+This displays the work done at [Moringa School](http://moringaschool.com/) by [Carol Wanjohi](https://github.com/carolwanjohi). [Anita's Kitchen]() is a webpage 
 
 ## Setup/Installation Requirements
 
