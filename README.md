@@ -1,5 +1,5 @@
 # independent-project-2
-This is the second independent project don while in Moringa School to create a landing page for Anita's Kitchen.
+This is the second independent project don while in Moringa School to create a landing page for [Anita's Kitchen](https://carolwanjohi.github.io/independent-project-2/).
 # Anita's Kitchen
 
 ## This is the second independent project for creating a landing page for Anita's Kitchen. 14/08/2017
@@ -8,13 +8,13 @@ This is the second independent project don while in Moringa School to create a l
 
 ## Description
 
-This displays the work done at [Moringa School](http://moringaschool.com/) by [Carol Wanjohi](https://github.com/carolwanjohi). [Anita's Kitchen]() is a webpage 
+This displays the work done at [Moringa School](http://moringaschool.com/) by [Carol Wanjohi](https://github.com/carolwanjohi). [Anita's Kitchen](https://carolwanjohi.github.io/independent-project-2/) is a webpage.
 
 ## Setup/Installation Requirements
 
-* Click [Anita's Kitchen]() <br/>
+* Click [Anita's Kitchen](https://carolwanjohi.github.io/independent-project-2/) <br/>
   or <br/>
-* Copy [Anita's Kitchen]() and  Paste the link at your prefered browerser
+* Copy [Anita's Kitchen](https://carolwanjohi.github.io/independent-project-2/) and  Paste the link at your prefered browerser
 
 This requires internet connection
 
