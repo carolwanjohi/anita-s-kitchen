@@ -1,3 +1,57 @@
+/*.container{
+    padding: 0;
+    margin: 0;
+}*/
+/*Check on shifting padding*/
+
+.section1{
+    text-align: center;
+    background-image: url("../assets/backgrounds/landing.jpg");
+/*    background-position: center;
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+#happyHour {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: black;
+}
+
+#partyTime{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #f15a29;
+
+}
+
+#breakfast{
+    text-align: center;
+    color: white;
+    background-image: url("../assets/foodtop/breakfast.jpg");
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+#lunch{
+    text-align: center;
+    color: white;
+    background-image: url("../assets/foodtop/lunch.jpg");
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+#dinner{
+    text-align: center;
+    color: white;
+    background-image: url("../assets/foodtop/dinner.jpg");
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
 .item {
     float: left;
 }
@@ -5,3 +59,4 @@
 .hiddy{
     display: none;
 }
+
