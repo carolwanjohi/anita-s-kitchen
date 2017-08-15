@@ -225,15 +225,21 @@
 
 /*Padding for section 6*/
 .section6 {
+    background-image: url("../assets/backgrounds/subscribe.jpg");
+    background-size: cover;
+    padding-bottom: 200px;
     padding-top: 60px;
-    padding-bottom: 60px;
     padding-left: 400px;
+    color: white;
 }
 
 /*Style #subscribeEmail in section 6*/
 #subscribeEmail {
+    background: rgba(0, 0, 0, 0.5);
     width: 400px;
     font-size: 15px;
+    display: inline-block;
+    color: white;
 }
 
 /*Style #subscribeButton in section 6*/
@@ -241,9 +247,6 @@
     width: 235px;
     margin-left: 15px;
     background-color: #F15A29;
-}
-
-#subscribeEmail, #subscribeButton {
     display: inline-block;
 }
 
