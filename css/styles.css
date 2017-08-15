@@ -137,8 +137,47 @@
 
 /*Padding for section 4 */
 .section4 {
-    padding-left: 50px;
-    padding-right: 50px;
+    background-image: url("../assets/backgrounds/foodsBg.jpg");
+    background-size: cover;
+    padding-bottom: 200px;
+    /*text-align: center;*/
+}
+
+/*Style .container in section 4*/
+.container{  
+    align: center;
+    padding: 10px;
+    background-color: white;
+    color: #F15A29;
+}
+
+/*Style .nav-tabs > li.active > a in section 4*/
+.nav-tabs > li.active > a {
+  color: #F15A29;
+  font-size: 16px;
+}
+
+/*Style .nav-tabs > li > a in section 4*/
+.nav-tabs > li > a {
+  color: #F15A29;
+}
+
+/*Style #firstCarousel > .item > img, #firstCarousel > .item > a > img, #firstCarousel> .item > h3 in section 4*/
+#firstCarousel > .item > img, #firstCarousel > .item > a > img, #firstCarousel> .item > h3 {
+    /*width: 70%;*/
+    margin: auto;
+    text-align: center;
+}
+
+/*Style .carousel-control.left and .carousel-control.right a in section 4 and section 5 carousel*/
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+/*Style .icon-next, .icon-prev{ in section 4 and section 5 carousel*/
+.icon-next, .icon-prev{ 
+    color: #F15A29;
 }
 
 /*Padding for section 5*/
