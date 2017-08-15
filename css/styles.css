@@ -44,12 +44,88 @@
 
 
 /*Style #dinner in section 2*/
-#dinner{
+#dinner {
     text-align: center;
     color: white;
     background-image: url("../assets/foodtop/dinner.jpg");
     background-size: cover;
     padding-bottom: 200px;
+}
+
+/*Padding for section 3 */
+.section3 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+/*Style #fastFoodsRow in section 3*/
+#fastFoodsRow {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+/*Style #drinksRow in section 3*/
+#drinksRow {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+/*Style #fastFoodPanel in section 3*/
+#fastFoodPanel{
+    text-align: left;
+}
+
+/*Style #drinksPanel in section 3*/
+#drinksPanel{
+    text-align: right;
+}
+
+/*Style #fastFoodsPhotos in section 3*/
+#fastFoodsPhotos{
+    border: 5px solid white;
+    box-shadow: 0 0 30px #888888;
+}
+
+/*Style #fastFoodsPhoto1 in section 3*/
+#fastFoodsPhoto1{
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 25px;
+}
+
+/*Style #fastFoodsPhoto2 in section 3*/
+#fastFoodsPhoto2{
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 25px;
+}
+
+/*Style #drinksPhotos in section 3*/
+#drinksPhotos{
+    border: 5px solid white;
+    box-shadow: 0 0 30px #888888;
+}
+
+/*Style #drinksPhoto1 in section 3*/
+#drinksPhoto1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: -10px;
+}
+
+/*Style #drinksPhoto2 in section 3*/
+#drinksPhoto2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 0px;
 }
 
 /*Padding for section 4 */
