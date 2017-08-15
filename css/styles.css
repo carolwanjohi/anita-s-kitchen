@@ -250,27 +250,28 @@
     display: inline-block;
 }
 
-/*Padding and background for section 7*/
+/*Style for section 7*/
 .section7{
     padding-top: 25px;
     padding-left: 650px;
     padding-right: 150px;
     background-color: #F15A29;
+    color: white;
 }
 
-/*Float footer logo and padding between logo and Menu header*/
+/*Style #menuFooterLogo in section 7*/
 #menuFooterLogo{
     float: left;
     padding-right: 10px;
 }
 
-/*Padding between footer social media images*/
+/*Style #twitterLogo in section 7 */
 #twitterLogo{
     padding-right: 5px;
     padding-left: 5px;
 }
 
-/*Padding for id copyright*/
+/*Style #copyright in section 7*/
 #copyright{
     padding-top: 25px;
     padding-bottom: 20px;
