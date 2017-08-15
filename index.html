@@ -14,335 +14,332 @@
 </head>
 
 <body>
+    <div class="section1">
+        <img src="assets/logoBig.png" alt="Anita's Kitchen Logo">
+        <p>We Provide The Best Food
+            <br/> At The <span class="boldSlogan">Right Price</span></p>
+    </div>
 
-        <div class="section1">
-            <img src="assets/logoBig.png" alt="Anita's Kitchen Logo">
-            <p>We Provide The Best Food. 
-                <br/>At The <span class="boldSlogan">Right Price</span></p>
+    <div class="section2">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="row">
+                    <div id="happyHour">Happy Hour</div>
+                    <div id="partyTime">Party Time</div>
+                </div>
+            </div>
+
+            <div class="col-md-3" id="breakfast">
+                <p>Breakfast</p>
+            </div>
+
+            <div class="col-md-3"id="lunch">
+                <p>Lunch</p>
+            </div>
+
+            <div class="col-md-3"id="dinner">
+                <p>Dinner</p>
+            </div>
         </div>
 
-        <div class="section2">
+    </div>
 
-            <div class="row">
+    <div class="section3">
 
-                <div class="col-md-3">
-                    <div class="row">
-                        <div id="happyHour">Happy Hour</div>
-                        <div id="partyTime">Party Time</div>
-                    </div>
+        <div class="row" id="fastFoodsRow">
+            <div class="col-md-6">
+                <div id="fastFoodPhotos">
+                    <img src="assets/fastFood1.jpg" alt="Photo of Fast Food 1"> <br/>
+                    <img src="assets/fastFood2.jpg" alt="Photo of Fast Food 2">
                 </div>
+            </div>
 
-                <div class="col-md-3" id="breakfast">
-                    <p>Breakfast</p>
+            <div class="col-md-6">
+                <div class="panel panel" id="fastFoodPanel">
+                    <p class="panel-title">Fast Food</p>
+                    <p class="panel-body"> <span class="panelSubtitle">You'll love our delicious fast food</span><br/>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue, et libero elementum, risus rutrum eget dolor, a viverra ut lacinia bibendum semper mattis, nulla eu nulla libero lobortis mi. Nunc varius leo porttitor. Dolor iaculis ut pellentesque, elementum maecenas eu aliquam duis eleifend vitae, phasellus cubilia, leo morbi porttitor tellus fusce nibh in, sollicitudin eu. Donec non amet mauris, pellentesque amet in tortor, donec lobortis in habitant donec eros, morbi scelerisque mi integer quisque, diam vitae massa non. Dui tempor aliquam urna tellus. Malesuada vero nec, turpis quisque. Ut sapien aliquam, mauris faucibus est faucibus fringilla, ornare urna massa ut dolor in donec, ipsum etiam. Ultricies neque enim leo viverra nunc morbi, erat non nisl sit molestie eget. Ante in augue vel sit magna id, molestie integer lorem vestibulum cursus cras, orci nibh, in erat.</p>
+                    <button type="button" name="button" class="panel-footer">View Gallery</button>
                 </div>
+            </div>
+        </div>
 
-                <div class="col-md-3"id="lunch">
-                    <p >Lunch</p>
+        <div class="row" id="drinksRow"> 
+            <div class="col-md-6">
+                <div class="panel panel" id="drinksPanel">
+                    <p class="panel-title">Drinks</p>
+                    <p class="panel-body"> <span class="panelSubtitle">We also produce delicious drinks</span><br/>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue, et libero elementum, risus rutrum eget dolor, a viverra ut lacinia bibendum semper mattis, nulla eu nulla libero lobortis mi. Nunc varius leo porttitor. Dolor iaculis ut pellentesque, elementum maecenas eu aliquam duis eleifend vitae, phasellus cubilia, leo morbi porttitor tellus fusce nibh in, sollicitudin eu. Donec non amet mauris, pellentesque amet in tortor, donec lobortis in habitant donec eros, morbi scelerisque mi integer quisque, diam vitae massa non. Dui tempor aliquam urna tellus. Malesuada vero nec, turpis quisque. Ut sapien aliquam, mauris faucibus est faucibus fringilla, ornare urna massa ut dolor in donec, ipsum etiam. Ultricies neque enim leo viverra nunc morbi, erat non nisl sit molestie eget. Ante in augue vel sit magna id, molestie integer lorem vestibulum cursus cras, orci nibh, in erat.</p>
+                    <button type="button" name="button" class="panel-footer">View Gallery</button>
                 </div>
+            </div>
 
-                <div class="col-md-3" id="dinner">
-                    <p>Dinner</p>
+            <div class="col-md-6">
+                <div class="drinksPhotos">
+                    <img src="assets/drink1.jpg" alt="Photo of Drink 1">
+                    <img src="assets/drink2.jpg" alt="Photo of Drink 2">
                 </div>
-
             </div>
 
         </div>
 
-        <div class="section3">
-            <div class="row">
+    </div>
 
-                <div class="col-md-6">
-                    <div id="fastFoodPhotos">
-                        <img src="assets/fastFood1.jpg" alt="Photo of Fast Food 1"> <br/>
-                        <img src="assets/fastFood2.jpg" alt="Photo of Fast Food 2">
-                    </div>
+    <div class="section4">
+
+        <div class="fastFoods">
+            <h2>Fast Food</h2>
+
+            <div id="fastFoodsCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#fastFoodsCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#fastFoodsCarousel" data-slide-to="1"></li>
+                <li data-target="#fastFoodsCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active" id="fastFoodsCarouselImage">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
+                    <h3>Chicken Burger</h3>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="panel" id="fastFaoodPanel">
-                        <p class="panel-title">Fast Food</p>
-                        <p class="panel-body"> <span class="panelSubtitle">You'll love our delicious fast food</p><br/>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue, et libero elementum, risus rutrum eget dolor, a viverra ut lacinia bibendum semper mattis, nulla eu nulla libero lobortis mi. Nunc varius leo porttitor. Dolor iaculis ut pellentesque, elementum maecenas eu aliquam duis eleifend vitae, phasellus cubilia, leo morbi porttitor tellus fusce nibh in, sollicitudin eu. Donec non amet mauris, pellentesque amet in tortor, donec lobortis in habitant donec eros, morbi scelerisque mi integer quisque, diam vitae massa non. Dui tempor aliquam urna tellus. Malesuada vero nec, turpis quisque. Ut sapien aliquam, mauris faucibus est faucibus fringilla, ornare urna massa ut dolor in donec, ipsum etiam. Ultricies neque enim leo viverra nunc morbi, erat non nisl sit molestie eget. Ante in augue vel sit magna id, molestie integer lorem vestibulum cursus cras, orci nibh, in erat.</p>
-                        <button type="button" name="button" class="panel-footer">View Gallery</button>
-                    </div>
+                <div class="item" id="fastFoodsCarouselImage">
+                  <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+                    <h3>Beef Burger</h3>
                 </div>
 
+                <div class="item"  id="fastFoodsCarouselImage">
+                  <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                    <h3>Chicken Pizza</h3>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#fastFoodsCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#fastFoodsCarousel" data-slide="next">
+                <span class="icon-next"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
+        </div>
 
-            <div class="row">
-                
-                <div class="col-md-6">
-                    <div class="panel panel" id="drinksPanel">
-                        <p class="panel-title">Drinks</p>
-                        <p class="panel-body"> <span class="panelSubtitle">We also produce delicious drinks</span><br/>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue, et libero elementum, risus rutrum eget dolor, a viverra ut lacinia bibendum semper mattis, nulla eu nulla libero lobortis mi. Nunc varius leo porttitor. Dolor iaculis ut pellentesque, elementum maecenas eu aliquam duis eleifend vitae, phasellus cubilia, leo morbi porttitor tellus fusce nibh in, sollicitudin eu. Donec non amet mauris, pellentesque amet in tortor, donec lobortis in habitant donec eros, morbi scelerisque mi integer quisque, diam vitae massa non. Dui tempor aliquam urna tellus. Malesuada vero nec, turpis quisque. Ut sapien aliquam, mauris faucibus est faucibus fringilla, ornare urna massa ut dolor in donec, ipsum etiam. Ultricies neque enim leo viverra nunc morbi, erat non nisl sit molestie eget. Ante in augue vel sit magna id, molestie integer lorem vestibulum cursus cras, orci nibh, in erat.</p>
-                        <button type="button" name="button" class="panel-footer">View Gallery</button>
-                    </div>
+        <div class="drinks hiddy">
+            <h2>Drinks</h2>
+
+            <div id="drinksCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#drinksCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#drinksCarousel" data-slide-to="1"></li>
+                <li data-target="#drinksCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
+                    <h3>Chicken Burger</h3>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="drinksPhotos">
-                        <img src="assets/drink1.jpg" alt="Photo of Drink 1">
-                        <img src="assets/drink2.jpg" alt="Photo of Drink 2">
-                    </div>
+                <div class="item">
+                  <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+                    <h3>Beef Burger</h3>
                 </div>
 
+                <div class="item">
+                  <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                    <h3>Chicken Pizza</h3>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#drinksCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#drinksCarousel" data-slide="next">
+                <span class="icon-next"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
 
         </div>
+        <div class="chicken hiddy">
 
-        <div class="section4">
+            <h2>Chicken</h2>
 
-            <div class="fastFoods">
-                <h2>Fast Food</h2>
+            <div id="chickenCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#chickenCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#chickenCarousel" data-slide-to="1"></li>
+                <li data-target="#chickenCarousel" data-slide-to="2"></li>
+              </ol>
 
-                <div id="fastFoodsCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
+                    <h3>Chicken Burger</h3>
+                </div>
+
+                <div class="item">
+                  <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+                    <h3>Beef Burger</h3>
+                </div>
+
+                <div class="item">
+                  <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                    <h3>Chicken Pizza</h3>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#chickenCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#chickenCarousel" data-slide="next">
+                <span class="icon-next"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+        </div>
+        <div class="rice hiddy">
+
+            <h2>Rice</h2>
+
+            <div id="riceCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#riceCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#riceCarousel" data-slide-to="1" ></li>
+                <li data-target="#riceCarousel" data-slide-to="2" ></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
+                    <h3>Chicken Burger</h3>
+                </div>
+
+                <div class="item ">
+                  <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+                    <h3>Beef Burger</h3>
+                </div>
+
+                <div class="item ">
+                  <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                    <h3>Chicken Pizza</h3>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#riceCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#riceCarousel" data-slide="next">
+                <span class="icon-next"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section5">
+
+        <div class="row">
+
+            <div class="col-md-8 ">
+                <h2>Our Happy Customers</h2>
+
+                <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
-                    <li data-target="#fastFoodsCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#fastFoodsCarousel" data-slide-to="1"></li>
-                    <li data-target="#fastFoodsCarousel" data-slide-to="2"></li>
+                    <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#testimonialCarousel" data-slide-to="1" ></li>
+                    <li data-target="#testimonialCarousel" data-slide-to="2" ></li>
                   </ol>
-
                   <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active" id="fastFoodsCarouselImage">
-                      <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
-                        <h3>Chicken Burger</h3>
-                    </div>
-
-                    <div class="item" id="fastFoodsCarouselImage">
-                      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
-                        <h3>Beef Burger</h3>
-                    </div>
-
-                    <div class="item"  id="fastFoodsCarouselImage">
-                      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
-                        <h3>Chicken Pizza</h3>
-                    </div>
-                  </div>
-
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#fastFoodsCarousel" data-slide="prev">
-                    <span class="icon-prev"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#fastFoodsCarousel" data-slide="next">
-                    <span class="icon-next"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-            </div>
-
-            <div class="drinks hiddy">
-                <h2>Drinks</h2>
-
-                <div id="drinksCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#drinksCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#drinksCarousel" data-slide-to="1"></li>
-                    <li data-target="#drinksCarousel" data-slide-to="2"></li>
-                  </ol>
-
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
+                  <div class="carousel-inner" id="testimonialCarousel">
                     <div class="item active">
-                      <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
-                        <h3>Chicken Burger</h3>
+                        <h3>Customer 1</h3>
+                        <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
+                      <img src="assets/customers/p1.png" alt="Customer 1" class="peopleCarouselImg">
                     </div>
 
                     <div class="item">
-                      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
-                        <h3>Beef Burger</h3>
+                        <h3>Customer 2</h3>
+                        <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
+                      <img src="assets/customers/p2.png" alt="Customer 2" class="peopleCarouselImg">
                     </div>
 
                     <div class="item">
-                      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
-                        <h3>Chicken Pizza</h3>
+                        <h3>Customer 3</h3>
+                        <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
+                      <img src="assets/customers/p3.png" alt="Customer 3" class="peopleCarouselImg">
                     </div>
                   </div>
 
                   <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#drinksCarousel" data-slide="prev">
+                  <a class="left carousel-control" href="#testimonialCarousel" data-slide="prev">
                     <span class="icon-prev"></span>
                     <span class="sr-only">Previous</span>
                   </a>
-                  <a class="right carousel-control" href="#drinksCarousel" data-slide="next">
-                    <span class="icon-next"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-
-            </div>
-            <div class="chicken hiddy">
-
-                <h2>Chicken</h2>
-
-                <div id="chickenCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#chickenCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#chickenCarousel" data-slide-to="1"></li>
-                    <li data-target="#chickenCarousel" data-slide-to="2"></li>
-                  </ol>
-
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item">
-                      <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
-                        <h3>Chicken Burger</h3>
-                    </div>
-
-                    <div class="item">
-                      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
-                        <h3>Beef Burger</h3>
-                    </div>
-
-                    <div class="item">
-                      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
-                        <h3>Chicken Pizza</h3>
-                    </div>
-                  </div>
-
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#chickenCarousel" data-slide="prev">
-                    <span class="icon-prev"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#chickenCarousel" data-slide="next">
-                    <span class="icon-next"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-
-            </div>
-            <div class="rice hiddy">
-
-                <h2>Rice</h2>
-
-                <div id="riceCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#riceCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#riceCarousel" data-slide-to="1" ></li>
-                    <li data-target="#riceCarousel" data-slide-to="2" ></li>
-                  </ol>
-
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
-                        <h3>Chicken Burger</h3>
-                    </div>
-
-                    <div class="item ">
-                      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
-                        <h3>Beef Burger</h3>
-                    </div>
-
-                    <div class="item ">
-                      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
-                        <h3>Chicken Pizza</h3>
-                    </div>
-                  </div>
-
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#riceCarousel" data-slide="prev">
-                    <span class="icon-prev"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#riceCarousel" data-slide="next">
+                  <a class="right carousel-control" href="#testimonialCarousel" data-slide="next">
                     <span class="icon-next"></span>
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
             </div>
 
-        </div>
-
-        <div class="section5">
-            <div class="row">
-
-                <div class="col-md-8 ">
-                    <h2>Our Happy Customers</h2>
-
-                    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#testimonialCarousel" data-slide-to="1" ></li>
-                        <li data-target="#testimonialCarousel" data-slide-to="2" ></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner" id="testimonialCarousel">
-                        <div class="item active">
-                            <h3>Customer 1</h3>
-                            <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
-                          <img src="assets/customers/p1.png" alt="Customer 1" class="peopleCarouselImg">
-                        </div>
-
-                        <div class="item">
-                            <h3>Customer 2</h3>
-                            <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
-                          <img src="assets/customers/p2.png" alt="Customer 2" class="peopleCarouselImg">
-                        </div>
-
-                        <div class="item">
-                            <h3>Customer 3</h3>
-                            <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
-                          <img src="assets/customers/p3.png" alt="Customer 3" class="peopleCarouselImg">
-                        </div>
-                      </div>
-
-                      <!-- Left and right controls -->
-                      <a class="left carousel-control" href="#testimonialCarousel" data-slide="prev">
-                        <span class="icon-prev"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="right carousel-control" href="#testimonialCarousel" data-slide="next">
-                        <span class="icon-next"></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <h2>About Menu</h2>
-                    <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue,</p>
-                </div>
-
-
+            <div class="col-md-4">
+                <h2>About Menu</h2>
+                <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue,</p>
             </div>
-        </div>  
-
-        <div class="section6">
-            <h2>Get our daily food items delivered to your email</h2>
-            
-            <form class="form-inline" id="subscribeForm">
-
-                <div class="form-group">
-                    <input id="subscribeEmail" class="form-control" type="email" placeholder="Your email">
-                </div>
-
-                <button type="submit" class="btn" id="subscribeButton">Subscribe</button>
-            </form>
-        </div>
-
-        <div class="section7">
-
-            <footer>
-
-                <img src="assets/footerlogos/logo_white.png" alt="Logo of Anita's Kitchen" id="menuFooterLogo">
-                <h2 id="menuFooterHeader">MENU</h2> <br/>
-                <p id="menuFooterSlogan">Thats What We Are</p><br/>
-                <img src="assets/footerlogos/facebook.png" alt="Facebook Logo" id="facebookLogo">
-                <img src="assets/footerlogos/twitter.png" alt="Twitter Logo" id="twitterLogo">
-                <img src="assets/footerlogos/pinterest.png" alt="Pinterest Logo" id="pinterestLogo">
-
-                <p id="copyright"><br/><small>&copy; 2016 Menu Resturant</small></p>
-
-            </footer>
 
         </div>
+
+    </div>  
+
+    <div class="section6">
+        <h2>Get our daily food items delivered to your email</h2>
+        
+        <form class="form-inline" id="subscribeForm">
+
+            <div class="form-group">
+                <input id="subscribeEmail" class="form-control" type="email" placeholder="Your email">
+            </div>
+
+            <button type="submit" class="btn" id="subscribeButton">Subscribe</button>
+        </form>
+    </div>
+
+    <div class="section7">
+
+        <footer>
+
+            <img src="assets/footerlogos/logo_white.png" alt="Logo of Anita's Kitchen" id="menuFooterLogo">
+            <h2 id="menuFooterHeader">MENU</h2> <br/>
+            <p id="menuFooterSlogan">Thats What We Are</p><br/>
+            <img src="assets/footerlogos/facebook.png" alt="Facebook Logo" id="facebookLogo">
+            <img src="assets/footerlogos/twitter.png" alt="Twitter Logo" id="twitterLogo">
+            <img src="assets/footerlogos/pinterest.png" alt="Pinterest Logo" id="pinterestLogo">
+
+            <p id="copyright"><br/><small>&copy; 2016 Menu Resturant</small></p>
+
+        </footer>
+
+    </div>
   
 </body>
 
