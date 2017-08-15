@@ -29,7 +29,7 @@ $(document).ready(function() {
     $("form#subscribeForm").submit(function(event) {
     var userEmailInput = $("input#subscribeEmail").val();
 
-    alert("userEmailInput" + " thank you for subscribing.");
+    alert(userEmailInput + " thank you for subscribing.");
 
     // $(".userEmail").text(userEmailInput);
 
