@@ -29,7 +29,12 @@ $(document).ready(function() {
     $("form#subscribeForm").submit(function(event) {
     var userEmailInput = $("input#subscribeEmail").val();
 
-    alert(userEmailInput + " thank you for subscribing.");
+    if (userEmailInput  === '') {
+        alert("Please enter your email address.");
+        return false;
+    } else {
+        alert(userEmailInput + " thank you for subscribing.");
+    }
 
     // $(".userEmail").text(userEmailInput);
 
