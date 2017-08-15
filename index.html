@@ -78,23 +78,23 @@
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
                     <li data-target="#fastFoodsCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#fastFoodsCarousel" data-slide-to="1" class="active"></li>
-                    <li data-target="#fastFoodsCarousel" data-slide-to="2" class="active"></li>
+                    <li data-target="#fastFoodsCarousel" data-slide-to="1"></li>
+                    <li data-target="#fastFoodsCarousel" data-slide-to="2"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
-                    <div class="item active">
+                    <div class="item active" id="fastFoodsCarouselImage">
                       <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
                         <h3>Chicken Burger</h3>
                     </div>
 
-                    <div class="item active">
+                    <div class="item" id="fastFoodsCarouselImage">
                       <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
                         <h3>Beef Burger</h3>
                     </div>
 
-                    <div class="item active">
+                    <div class="item"  id="fastFoodsCarouselImage">
                       <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
                         <h3>Chicken Pizza</h3>
                     </div>
@@ -119,8 +119,8 @@
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
                     <li data-target="#drinksCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#drinksCarousel" data-slide-to="1" class="active"></li>
-                    <li data-target="#drinksCarousel" data-slide-to="2" class="active"></li>
+                    <li data-target="#drinksCarousel" data-slide-to="1"></li>
+                    <li data-target="#drinksCarousel" data-slide-to="2"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
@@ -130,12 +130,12 @@
                         <h3>Chicken Burger</h3>
                     </div>
 
-                    <div class="item active">
+                    <div class="item">
                       <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
                         <h3>Beef Burger</h3>
                     </div>
 
-                    <div class="item active">
+                    <div class="item">
                       <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
                         <h3>Chicken Pizza</h3>
                     </div>
@@ -161,23 +161,23 @@
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
                     <li data-target="#chickenCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#chickenCarousel" data-slide-to="1" class="active"></li>
-                    <li data-target="#chickenCarousel" data-slide-to="2" class="active"></li>
+                    <li data-target="#chickenCarousel" data-slide-to="1"></li>
+                    <li data-target="#chickenCarousel" data-slide-to="2"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
-                    <div class="item active">
+                    <div class="item">
                       <img src="assets/fastfood/chickenBurger.jpg" alt="Chcken Burger">
                         <h3>Chicken Burger</h3>
                     </div>
 
-                    <div class="item active">
+                    <div class="item">
                       <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
                         <h3>Beef Burger</h3>
                     </div>
 
-                    <div class="item active">
+                    <div class="item">
                       <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
                         <h3>Chicken Pizza</h3>
                     </div>
@@ -241,6 +241,7 @@
 
         <div class="section5">
             <div class="row">
+
                 <div class="col-md-8">
                     <h2>Our Happy Customers</h2>
 
@@ -255,19 +256,19 @@
                       <div class="carousel-inner">
                         <div class="item active">
                             <h3>Customer 1</h3>
-                            <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue,</p>
+                            <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
                           <img src="assets/customers/p1.png" alt="Customer 1">
                         </div>
 
-                        <div class="item ">
-                                <h3>George Richard</h3>
-                                <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue,</p>
+                        <div class="item">
+                            <h3>Customer 2</h3>
+                            <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
                           <img src="assets/customers/p2.png" alt="Customer 2">
                         </div>
 
-                        <div class="item ">
+                        <div class="item">
                             <h3>Customer 3</h3>
-                            <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas. Placerat integer mollis. Duis quis congue,</p>
+                            <p>Lorem ipsum dolor sit amet, ad semper euismod a, dis duis wisi, elit egestas.</p>
                           <img src="assets/customers/p3.png" alt="Customer 3">
                         </div>
                       </div>
@@ -294,8 +295,16 @@
         </div>  
 
         <div class="section6">
+            <h2>Get our daily food items delivered to your email</h2>
+            
+            <form class="form-inline" id="subscribeForm">
 
+                <div class="form-group">
+                    <input id="subscribeEmail" class="form-control" type="email" placeholder="Your email">
+                </div>
 
+                <button type="submit" class="btn" id="subscribeButton">Subscribe</button>
+            </form>
         </div>
 
         <div class="section7">

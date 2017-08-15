@@ -1,7 +1,3 @@
-/*.container{
-    padding: 0;
-    margin: 0;
-}*/
 /*Check on shifting padding*/
 
 .section1{
@@ -52,11 +48,39 @@
     padding-bottom: 200px;
 }
 
-.item {
-    float: left;
+/*Padding for section 4 */
+.section4 {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .hiddy{
     display: none;
 }
 
+/*Padding for section 5*/
+.section5 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*Padding for section 6*/
+.section6 {
+    padding-left: 250px;
+    padding-right: 50px;
+}
+
+/*Horizontally align email field and subscribe button*/
+#subscribeEmail {
+    width: 400px;
+    font-size: 15px;
+}
+
+#subscribeButton {
+    width: 235px;
+    margin-left: 15px;
+}
+
+#subscribeEmail, #subscribeButton {
+    display: inline-block;
+}
