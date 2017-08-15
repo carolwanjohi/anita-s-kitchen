@@ -1,29 +1,30 @@
 /*Check on shifting padding*/
 
+/*Style section 1*/
 .section1{
     text-align: center;
     background-image: url("../assets/backgrounds/landing.jpg");
-/*    background-position: center;
-    background-repeat: no-repeat;*/
     background-size: cover;
     padding-bottom: 200px;
 }
 
+/*Style #happyHour in section 2*/
 #happyHour {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 45px;
+    padding-bottom: 50px;
     text-align: center;
     color: black;
 }
 
+/*Style #partyTime in section 2*/
 #partyTime{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 45px;
+    padding-bottom: 50px;
     text-align: center;
-    color: #f15a29;
-
+    background-color: #F15A29;
 }
 
+/*Style #breakfast in section 2*/
 #breakfast{
     text-align: center;
     color: white;
@@ -32,6 +33,7 @@
     padding-bottom: 200px;
 }
 
+/*Style #lunch in section 2*/
 #lunch{
     text-align: center;
     color: white;
@@ -40,6 +42,8 @@
     padding-bottom: 200px;
 }
 
+
+/*Style #dinner in section 2*/
 #dinner{
     text-align: center;
     color: white;
@@ -64,23 +68,58 @@
     padding-right: 50px;
 }
 
+/*Style testimonialCarousel in section 5*/
+#testimonialCarousel{
+    height: 150px;
+ }
+
 /*Padding for section 6*/
 .section6 {
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 400px;
-    /*padding-right: 50px;*/
 }
 
-/*Horizontally align email field and subscribe button*/
+/*Style #subscribeEmail in section 6*/
 #subscribeEmail {
     width: 400px;
     font-size: 15px;
 }
 
+/*Style #subscribeButton in section 6*/
 #subscribeButton {
     width: 235px;
     margin-left: 15px;
+    background-color: #F15A29;
 }
 
 #subscribeEmail, #subscribeButton {
     display: inline-block;
 }
+
+/*Padding and background for section 7*/
+.section7{
+    padding-top: 25px;
+    padding-left: 650px;
+    padding-right: 150px;
+    background-color: #F15A29;
+}
+
+/*Float footer logo and padding between logo and Menu header*/
+#menuFooterLogo{
+    float: left;
+    padding-right: 10px;
+}
+
+/*Padding between footer social media images*/
+#twitterLogo{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/*Padding for id copyright*/
+#copyright{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
