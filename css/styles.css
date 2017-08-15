@@ -106,6 +106,15 @@
     padding-right: 25px;
 }
 
+/*Style #fastFoodsPanelButton in section 3*/
+#fastFoodsPanelButton, #drinksPanelButton {
+    background-color: white;
+    text-align: center;
+    color:  #F15A29; 
+    border: 2px solid  #F15A29;
+
+}
+
 /*Style #drinksPhotos in section 3*/
 #drinksPhotos{
     border: 5px solid white;
@@ -117,7 +126,6 @@
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 50px;
-    padding-right: -10px;
 }
 
 /*Style #drinksPhoto2 in section 3*/
@@ -125,7 +133,6 @@
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 50px;
-    padding-left: 0px;
 }
 
 /*Padding for section 4 */
