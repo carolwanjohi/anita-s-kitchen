@@ -9,6 +9,12 @@
     color: white;
 }
 
+/*Style i in section 1 */
+.hamburgerIcon {
+    color: green;
+    float: left;
+}
+
 /*Style boldSlogan in section 1*/
 #boldSlogan{
     font-weight: 900;
@@ -144,20 +150,22 @@
 .section4 {
     background-image: url("../assets/backgrounds/foodsBg.jpg");
     background-size: cover;
-    padding-bottom: 200px;
+    height: 500px;
+    padding: 100px 0px;
+    /*padding-bottom: 200px;*/
     /*text-align: center;*/
 }
 
 /*Style .container in section 4*/
 .container{  
-    padding: 10px;
+    padding: 25px;
     background-color: white;
     color: #F15A29;
 }
 
 /*Style .nav-tabs > li.active > a in section 4*/
 .nav-tabs > li.active > a {
-  color: #F15A29;
+  color: black;
   font-size: 16px;
 }
 
