@@ -1,5 +1,12 @@
+  // Back-end
+
 // Front-end
 $(document).ready(function() {
+    //  Open and close hamburger menu
+    $('.menu-toggle').on('click', function(){
+      $('.fullHamburgerMenu').toggleClass('fullHamburgerMenu--open');
+    })
+
     // Change opacity on hover
     $("#breakfast").hover( function(){
         $(this).stop().animate({ opacity: 0.75 }, "fast").css("color", "black"); //on mouse hover

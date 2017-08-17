@@ -15,10 +15,39 @@
 </head>
 
 <body>
+<!--     <div class="dropdown hiddy">
+      <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+      <span class="caret"></span></button>
+      <ul class="menu" >
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Menu</a></li>
+      </ul>
+    </div> -->
+    <!-- <div id= "hamburgerMenu" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" id="closeHamburgerButton"></a>
+      <ul class="menu" >
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Menu</a></li>
+      </ul>
+    </div> -->
+    <div class="fullHamburgerMenu">
+      <div class="fullHamburgerMenu--middle">
+        <button class="menu-toggle menu-toggle--close"></button>
+        <ul id="haburgerMenuList" >
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Menu</a></li>
+        </ul>
+      </div>
+    </div>
+    
+
     <div class="section1">
-        <i class="fa fa-bars fa-5x hamburgerIcon" aria-hidden="true"></i>
-        <img src="assets/logoBig.png" alt="Anita's Kitchen Logo">
-        <p>We Provide The Best Food
+        <i class="fa fa-bars fa-4x hamburgerIcon menu-toggle" aria-hidden="true"></i>
+        <img src="assets/logoBig.png" alt="Anita's Kitchen Logo" id="headerLogo">
+        <p id="headerSlogan">We Provide The Best Food
             <br/> At The <span id="boldSlogan">Right Price</span></p>
     </div>
 

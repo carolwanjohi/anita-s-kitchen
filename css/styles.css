@@ -1,4 +1,81 @@
 /*Check on shifting padding*/
+/*Style .fullHamburgerMenu */
+.fullHamburgerMenu{
+  visibility: hidden;
+  display: table;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: `#F15A29;
+  color: black;
+  -webkit-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+/*Style .fullHamburgerMenu--open in .fullHamburgerMenu */
+.fullHamburgerMenu--open {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/*Style .fullHamburgerMenu--middle in .fullHamburgerMenu */
+.fullHamburgerMenu--middle{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*Style #haburgerMenuList > li > a in .fullHamburgerMenu */
+#haburgerMenuList > li > a{
+    color: black;
+}
+/*.overlay {   
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.9); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}*/
+
+/* Position .menu in .overly in hamburgerMenu*/
+/*.menu {
+    position: relative;
+    top: 25%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px;
+}*/
+
+/* The navigation links inside the overlay */
+/*.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; 
+    transition: 0.3s; 
+}*/
+
+/* Position the close button (top right corner) */
+/*.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}*/
 
 /*Style section 1*/
 .section1{
@@ -13,8 +90,15 @@
 .hamburgerIcon {
     color: white;
     float: left;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-right: 0;
 }
-
+#headerSlogan {
+    padding-top: 15px;
+    padding-left: 98px;
+    font-size: 30px;
+}
 /*Style boldSlogan in section 1*/
 #boldSlogan{
     font-weight: 900;
