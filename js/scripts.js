@@ -1,4 +1,4 @@
-  // Back-end
+// Back-end
 
 // Front-end
 $(document).ready(function() {

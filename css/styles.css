@@ -8,9 +8,10 @@
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
-  background-color: `#F15A29;
-  color: black;
+  opacity: 0.5;
+  background-color: #F15A29;
+  text-align: center;
+  z-index: 90;
   -webkit-transform: scale(0.85);
   -ms-transform: scale(0.85);
   transform: scale(0.85);
@@ -21,7 +22,7 @@
 /*Style .fullHamburgerMenu--open in .fullHamburgerMenu */
 .fullHamburgerMenu--open {
   visibility: visible;
-  opacity: 1;
+  opacity: 0.5;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -32,7 +33,9 @@
   display: table-cell;
   vertical-align: middle;
 }
-
+#haburgerMenuList {
+    list-style-type: none;
+}
 /*Style #haburgerMenuList > li > a in .fullHamburgerMenu */
 #haburgerMenuList > li > a{
     color: black;
