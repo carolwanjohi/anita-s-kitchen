@@ -1,3 +1,8 @@
+/*Style body*/
+body {
+    font-family: 'Palanquin', sans-serif;
+}
+
 /*Style .hamburgerMenu */
 .hamburgerMenu{
   visibility: hidden;
@@ -74,7 +79,8 @@
 #headerSlogan {
     padding-top: 15px;
     padding-left: 98px;
-    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
 }
 
 /*Style boldSlogan in section 1*/
@@ -88,6 +94,7 @@
     padding-bottom: 58px;
     text-align: center;
     color: black;
+    font-size: 15px;
 }
 
 /*Style #partyTime in section 2*/
@@ -96,6 +103,7 @@
     padding-bottom: 58px;
     text-align: center;
     background-color: #F15A29;
+    font-size: 15px;
 }
 
 /*Style .hoverSection2 in section 2*/
@@ -108,6 +116,8 @@
     color: white;
     background-image: url("../assets/foodtop/breakfast.jpg");
     background-size: cover;
+    font-family: 'Sonsie One', cursive;
+    font-size: 15px;
 }
 
 /*Style #lunch in section 2*/
@@ -115,6 +125,8 @@
     color: white;
     background-image: url("../assets/foodtop/lunch.jpg");
     background-size: cover;
+    font-family: 'Sonsie One', cursive;
+    font-size: 15px;
 }
 
 /*Style #dinner in section 2*/
@@ -122,6 +134,8 @@
     color: white;
     background-image: url("../assets/foodtop/dinner.jpg");
     background-size: cover;
+    font-family: 'Sonsie One', cursive;
+    font-size: 15px;
 }
 
 /*Padding for section 3 */
@@ -130,6 +144,17 @@
     padding-right: 50px;
     padding-bottom: 70px;
     padding-top: 70px;
+}
+
+/*Style .panel-title in section 3*/
+.panel-title {
+    color:  #F15A29; 
+    font-size: 50px;
+}
+
+/*Style .panelSubtitle in section 3*/
+.panelSubtitle {
+    font-size: 25px;
 }
 
 /*Style #fastFoodsRow in section 3*/
@@ -227,19 +252,22 @@
 /*Style .nav-tabs > li.active > a in section 4*/
 .nav-tabs > li.active > a {
   color: black;
-  font-size: 16px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 /*Style .nav-tabs > li > a in section 4*/
 .nav-tabs > li > a {
   color: #F15A29;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /*Style #firstCarousel > .item > img, #firstCarousel > .item > a > img, #firstCarousel> .item > h3 in section 4*/
 #firstCarousel > .item > img, #firstCarousel > .item > a > img, #firstCarousel> .item > h3 {
-    /*width: 70%;*/
     margin: auto;
     text-align: center;
+    padding-bottom: 6px;
 }
 
 /*Style .carousel-control.left and .carousel-control.right a in section 4 and section 5 carousel*/
@@ -273,6 +301,8 @@
 /*Style #testimonialAndAboutRow h2 in section 5*/
 #testimonialAndAboutRow h2{
     color: #F15A29;
+    font-size: 45px;
+    font-weight: 500;
 }
 
 /*Style #testimonialColumn in section 5*/
@@ -289,6 +319,8 @@
 /*Style testimonialCarousel in section 5*/
  #testimonialCarousel > .item > img, #testimonialCarousel > .item > a > img, #testimonialCarousel> .item > h3, #testimonialCarousel> .item > p {
     margin: auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 170%;
  }
 
 /*Padding for section 6*/
@@ -333,15 +365,28 @@
     padding-right: 10px;
 }
 
+/*Style #menuFooterHeader in section 7*/
+#menuFooterHeader {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+/*Style #menuFooterSlogan in section 7*/
+#menuFooterSlogan{
+    font-size: 20px;
+    font-weight: 500;
+
+}
 /*Style #twitterLogo in section 7 */
 #twitterLogo{
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /*Style #copyright in section 7*/
 #copyright{
     padding-top: 25px;
     padding-bottom: 20px;
+    padding-left: 15px;
 }
 
