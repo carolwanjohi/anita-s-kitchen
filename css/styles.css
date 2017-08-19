@@ -1,6 +1,5 @@
-/*Check on shifting padding*/
-/*Style .fullHamburgerMenu */
-.fullHamburgerMenu{
+/*Style .hamburgerMenu */
+.hamburgerMenu{
   visibility: hidden;
   display: table;
   position: fixed;
@@ -19,8 +18,8 @@
   transition: all 200ms ease-in-out;
 }
 
-/*Style .fullHamburgerMenu--open in .fullHamburgerMenu */
-.fullHamburgerMenu--open {
+/*Style .hamburgerMenu--open in .hamburgerMenu */
+.hamburgerMenu--open {
   visibility: visible;
   opacity: 0.5;
   -webkit-transform: scale(1);
@@ -28,17 +27,29 @@
   transform: scale(1);
 }
 
-/*Style .fullHamburgerMenu--middle in .fullHamburgerMenu */
-.fullHamburgerMenu--middle{
+/*Style .hamburgerMenu--middle in .hamburgerMenu */
+.hamburgerMenu--middle{
   display: table-cell;
   vertical-align: middle;
 }
+
+/*Style #haburgerMenuList  in .hamburgerMenu */
 #haburgerMenuList {
     list-style-type: none;
 }
-/*Style #haburgerMenuList > li > a in .fullHamburgerMenu */
+
+/*Style #haburgerMenuList > li > a in .hamburgerMenu */
 #haburgerMenuList > li > a{
-    color: black;
+    color: #000;
+    font-size: 300%;
+}
+
+/*Style .haburgerMenuButton in .hamburgerMenu */
+.haburgerMenuButton {
+    font-size: 250%;
+    color: #000;
+    margin-left: 50%;
+    margin-bottom: 5%;
 }
 
 /*Style section 1*/
@@ -58,11 +69,14 @@
     padding-top: 60px;
     padding-right: 0;
 }
+
+/*Style #headerSlogan in section 1 */
 #headerSlogan {
     padding-top: 15px;
     padding-left: 98px;
     font-size: 30px;
 }
+
 /*Style boldSlogan in section 1*/
 #boldSlogan{
     font-weight: 900;
@@ -84,35 +98,30 @@
     background-color: #F15A29;
 }
 
+/*Style .hoverSection2 in section 2*/
 .hoverSection2 {
     padding: 35%;
 }
 
 /*Style #breakfast in section 2*/
 #breakfast{
-    /*text-align: center;*/
     color: white;
     background-image: url("../assets/foodtop/breakfast.jpg");
     background-size: cover;
-    /*padding-bottom: 200px;*/
 }
 
 /*Style #lunch in section 2*/
 #lunch{
-    /*text-align: center;*/
     color: white;
     background-image: url("../assets/foodtop/lunch.jpg");
     background-size: cover;
-    /*padding-bottom: 200px;*/
 }
 
 /*Style #dinner in section 2*/
 #dinner {
-    /*text-align: center;*/
     color: white;
     background-image: url("../assets/foodtop/dinner.jpg");
     background-size: cover;
-    /*padding-bottom: 200px;*/
 }
 
 /*Padding for section 3 */
@@ -189,6 +198,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 50px;
+    padding-right: 0;
 }
 
 /*Style #drinksPhoto2 in section 3*/
@@ -196,6 +206,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 50px;
+    padding-left: 0;
 }
 
 /*Padding for section 4 */
@@ -204,8 +215,6 @@
     background-size: cover;
     height: 500px;
     padding: 100px 0px;
-    /*padding-bottom: 200px;*/
-    /*text-align: center;*/
 }
 
 /*Style .container in section 4*/

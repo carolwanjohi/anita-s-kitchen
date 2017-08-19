@@ -4,32 +4,29 @@
 $(document).ready(function() {
     //  Open and close hamburger menu
     $('.menu-toggle').on('click', function(){
-      $('.fullHamburgerMenu').toggleClass('fullHamburgerMenu--open');
+      $('.hamburgerMenu').toggleClass('hamburgerMenu--open');
     })
 
     // Change opacity on hover
     $("#breakfast").hover( function(){
-        $(this).stop().animate({ opacity: 0.75 }, "fast").css("color", "black"); //on mouse hover
+        $(this).stop().animate({ opacity: 0.75 }, "fast").css("color", "black"); // hover
     },
     function() {
-        $(this).stop().animate({ opacity: 1.0 }, "fast").css("color", "white"); //on mouse out
-    // });
+        $(this).stop().animate({ opacity: 1.0 }, "fast").css("color", "white"); // mouse out
     });
 
     $("#lunch").hover( function(){
-        $(this).stop().animate({ opacity: 0.75 }, "fast").css("color", "black"); //on mouse hover
+        $(this).stop().animate({ opacity: 0.75 }, "fast").css("color", "black"); // hover
     },
     function() {
-        $(this).stop().animate({ opacity: 1.0 }, "fast").css("color", "white"); //on mouse out
-    // });
+        $(this).stop().animate({ opacity: 1.0 }, "fast").css("color", "white"); // mouse out
     });
 
     $("#dinner").hover( function(){
-        $(this).stop().animate({ opacity: 0.75 }, "fast").css("color", "black"); //on mouse hover
+        $(this).stop().animate({ opacity: 0.75 }, "fast").css("color", "black"); // hover
     },
     function() {
-        $(this).stop().animate({ opacity: 1.0 }, "fast").css("color", "white"); //on mouse out
-    // });
+        $(this).stop().animate({ opacity: 1.0 }, "fast").css("color", "white"); // mouse out
     });
 
     // Subscription message
@@ -43,9 +40,6 @@ $(document).ready(function() {
         alert(userEmailInput + " thank you for subscribing.");
     }
 
-    // $(".userEmail").text(userEmailInput);
-
-    // $("#response").show();
     event.preventDefault();
   });
 });
