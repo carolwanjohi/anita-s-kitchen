@@ -377,10 +377,78 @@ body {
     font-weight: 500;
 
 }
+
+.inline{
+    float: left;
+}
+/*Style .facebookLogoContainer in section 7 */
+.facebookLogoContainer {
+    background-image: url("../assets/footerlogos/facebook.png");  
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    padding: 14px 0px;
+    padding-right: 30px;
+    position: relative;
+    /*float: left;*/
+    /*width: 70px;*/
+    /*height: 500px;  */
+}
+
+/*Style #facebookLogo in section 7 */
+#facebookLogo{
+    display: block;
+    height: auto;
+    width: auto;
+    color: #F15A29;
+    /*padding-right: 150px;*/
+    padding-left: 15px;
+}   
+
+/*Style .twitterLogoContainer in section 7 */
+.twitterLogoContainer {
+    background-image: url("../assets/footerlogos/twitter.png");  
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    padding: 14px 0px;
+    padding-right: 25px;
+    padding-left: 15px;
+    position: relative;
+    /*width: 50px;*/
+    /*float: right;*/
+    /*height: 500px;  */
+}
+
 /*Style #twitterLogo in section 7 */
 #twitterLogo{
-    padding-right: 15px;
-    padding-left: 15px;
+    display: block;
+    height: auto;
+    width: auto;
+    color: #F15A29;
+    /*padding-right: 150px;*/
+    /*padding-left: 0px;
+    padding-right: 0px;*/
+}
+
+/*Style .pinterestLogoContainer in section 7 */
+.pinterestLogoContainer {
+    background-image: url("../assets/footerlogos/pinterest.png");  
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    padding: 14px 0px;
+    padding-right: 25px;
+    position: relative;
+    /*float: right;*/
+    /*height: 500px;  */
+}
+
+/*Style #pinterestLogo in section 7 */
+#pinterestLogo{
+    display: block;
+    height: auto;
+    width: auto;
+    color: #F15A29;
+    /*padding-right: 150px;*/
+    padding-left: 13px;
 }
 
 /*Style #copyright in section 7*/
