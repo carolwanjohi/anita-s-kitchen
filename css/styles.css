@@ -98,7 +98,7 @@ body {
 }
 
 /*Style #partyTime in section 2*/
-#partyTime{
+#partyTime {
     padding-top: 55px;
     padding-bottom: 58px;
     text-align: center;
@@ -238,7 +238,6 @@ body {
 .section4 {
     background-image: url("../assets/backgrounds/foodsBg.jpg");
     background-size: cover;
-    height: 500px;
     padding: 100px 0px;
 }
 
@@ -336,7 +335,6 @@ body {
 /*Style #subscribeEmail in section 6*/
 #subscribeEmail {
     background: rgba(0, 0, 0, 0.5);
-    width: 400px;
     font-size: 15px;
     display: inline-block;
     color: white;
@@ -344,10 +342,9 @@ body {
 
 /*Style #subscribeButton in section 6*/
 #subscribeButton {
-    width: 235px;
-    margin-left: 15px;
     background-color: #F15A29;
     display: inline-block;
+    margin-left: 15px;
 }
 
 /*Style for section 7*/
@@ -360,7 +357,7 @@ body {
 }
 
 /*Style #menuFooterLogo in section 7*/
-#menuFooterLogo{
+#menuFooterLogo {
     float: left;
     padding-right: 10px;
 }
@@ -372,26 +369,24 @@ body {
 }
 
 /*Style #menuFooterSlogan in section 7*/
-#menuFooterSlogan{
+#menuFooterSlogan {
     font-size: 20px;
     font-weight: 500;
 
 }
 
-.inline{
+/*Style .inline in section 7*/
+.inline {
     float: left;
 }
+
 /*Style .facebookLogoContainer in section 7 */
 .facebookLogoContainer {
     background-image: url("../assets/footerlogos/facebook.png");  
-    /*background-size: cover;*/
     background-repeat: no-repeat;
     padding: 14px 0px;
     padding-right: 30px;
     position: relative;
-    /*float: left;*/
-    /*width: 70px;*/
-    /*height: 500px;  */
 }
 
 /*Style #facebookLogo in section 7 */
@@ -400,22 +395,17 @@ body {
     height: auto;
     width: auto;
     color: #F15A29;
-    /*padding-right: 150px;*/
     padding-left: 15px;
 }   
 
 /*Style .twitterLogoContainer in section 7 */
 .twitterLogoContainer {
-    background-image: url("../assets/footerlogos/twitter.png");  
-    /*background-size: cover;*/
+    background-image: url("../assets/footerlogos/twitter.png");
     background-repeat: no-repeat;
     padding: 14px 0px;
     padding-right: 25px;
     padding-left: 15px;
     position: relative;
-    /*width: 50px;*/
-    /*float: right;*/
-    /*height: 500px;  */
 }
 
 /*Style #twitterLogo in section 7 */
@@ -424,21 +414,15 @@ body {
     height: auto;
     width: auto;
     color: #F15A29;
-    /*padding-right: 150px;*/
-    /*padding-left: 0px;
-    padding-right: 0px;*/
 }
 
 /*Style .pinterestLogoContainer in section 7 */
 .pinterestLogoContainer {
     background-image: url("../assets/footerlogos/pinterest.png");  
-    /*background-size: cover;*/
     background-repeat: no-repeat;
     padding: 14px 0px;
     padding-right: 25px;
     position: relative;
-    /*float: right;*/
-    /*height: 500px;  */
 }
 
 /*Style #pinterestLogo in section 7 */
@@ -447,7 +431,6 @@ body {
     height: auto;
     width: auto;
     color: #F15A29;
-    /*padding-right: 150px;*/
     padding-left: 13px;
 }
 
@@ -458,3 +441,60 @@ body {
     padding-left: 15px;
 }
 
+/*Media Query/Web Responsive*/
+
+/*Mobile*/
+body, .section1, .section2, #happyHour, #partyTime, #fastFoodsPhotos, #fastFoodsPhoto1, #fastFoodsPhoto2, #drinksPhotos, #drinksPhoto1, #drinksPhoto2, .section4, .section5, .section6, #subscribeEmail, #subscribeForm, #subscribeButton, .section7, footer, #menuFooterSlogan, .twitterLogoContainer{
+    width: 100%;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 425px) {
+    .section5 { margin-top: 150px; }
+    #testimonialAndAboutRow { padding-left: 0; padding-right: 0; padding-bottom: 10px; }
+    #testimonialColumn { border-right: 0; }
+    #testimonialCarousel { height: 250px; }
+    .section7 { padding-left: 45px; padding-right: 35px; }
+}
+
+/*Mobile and Tablet*/
+@media only screen and (max-width: 768px) {
+    #happyHour { margin-bottom: 10px; }
+    #partyTime { margin-bottom: 10px; }
+    #fastFoodsPhotosColumn { padding-bottom: 25px; }
+    .section6 { padding-left: 0; }
+    #subscribeButton { margin-left: 0; }
+    #menuFooterHeader { width: 45px; }
+    .facebookLogoContainer { padding-right: 40px; }
+    .pinterestLogoContainer { padding-right: 40px; }
+    #copyright { padding-top: 100px; padding-left: 45px; }
+}
+
+/*Between Mobile and Tablet*/
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+    .section7 { padding-left: 350px; padding-right: 150px; }
+}
+
+/*Between Laptop and Laptop L*/
+@media only screen and (min-width: 1024px) and (max-width: 1438px) {
+    #happyHour { height: 5px; padding-top: 36px; }
+    #partyTime { height: 5px; padding-bottom: 45px }
+}
+
+/*Laptop L*/
+@media only screen and (min-width: 1445px){
+    #happyHour { padding: 16.75%; }
+    #partyTime { padding: 15.75% }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+    #drinksPhoto1 { width: 45%; } 
+    #drinksPhoto2 { width: 45%; }
+    .section4 { height: 500px; }
+    #subscribeEmail { width: 400px; } 
+    #subscribeButton { width: 235px; } 
+    .facebookLogoContainer { width: 53px; }
+    .twitterLogoContainer { width: 53px; }
+    .pinterestLogoContainer { width: 50px;  }
+}
