@@ -6,13 +6,13 @@
 
 ## Description
 
-[Anita's Kitchen](https://carolwanjohi.github.io/independent-project-2/) is a webpage created with the objective of implementing front-end development skills. This includes writing simple Javascript functions that use the jQuery library. 
+[Anita's Kitchen](https://carolwanjohi.github.io/anita-s-kitchen/) is a webpage created with the objective of implementing front-end development skills. This includes writing simple Javascript functions that use the jQuery library. 
 
 ## Setup/Installation Requirements
 
-* Click [Anita's Kitchen](https://carolwanjohi.github.io/independent-project-2/) <br/>
+* Click [Anita's Kitchen](https://carolwanjohi.github.io/anita-s-kitchen/) <br/>
   or <br/>
-* Copy [Anita's Kitchen](https://carolwanjohi.github.io/independent-project-2/) and  Paste the link at your prefered browerser
+* Copy [Anita's Kitchen](https://carolwanjohi.github.io/anita-s-kitchen/) and  Paste the link at your prefered browerser
 
 This requires internet connection
 
